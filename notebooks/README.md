@@ -29,4 +29,18 @@ L’objectif est d’anticiper les pannes pour réduire :
 Le modèle final est enregistré dans :  
 **`pipeline_best_model.pkl`**
 
-## 🔔 Exemple d’avertissement généré
+## 🔔 Exemple d’avertissement généré 
+# 🎬 Démonstration de prédiction
+
+Exemple : une nouvelle machine avec les paramètres suivants :
+
+- Type : H  
+- Température : 303 K  
+- Process : 313 K  
+- Vitesse : 1450 rpm  
+- Couple : 55 Nm  
+- Usure : 8 min  
+
+## 🔮 Résultat
+Le modèle prédit :
+**➡️ Random Failure**
