@@ -96,7 +96,9 @@ Plusieurs modèles de classification ont été testés :
 
 Les modèles “balanced” permettent de mieux gérer le **déséquilibre de classes** (peu de pannes par rapport aux non-pannes).
 
----
+Cette section présente les modèles de Machine Learning testés pour la prédiction des pannes, ainsi que leur comportement général sur les données.
+
+![Modèles testés](images/exploration_1.png)
 
 ## 📈 6. Évaluation des modèles
 
@@ -114,7 +116,10 @@ Le modèle final retenu est celui qui offre le meilleur compromis entre :
 ✅ bonne performance globale  
 ✅ bonne détection des pannes (éviter les faux négatifs)  
 
----
+Les performances des modèles ont été évaluées selon plusieurs métriques : précision, rappel, F1-score, matrice de confusion, etc.  
+La visualisation ci-dessous résume ces résultats.
+
+![Évaluation des modèles](images/exploration_2.png)
 
 ## 📌 7. Interprétation & zones de risque
 
@@ -127,7 +132,11 @@ L’analyse conjointe de la **vitesse de rotation**, du **couple** et des **type
 
 👉 Ces observations permettent d’identifier des **zones de fonctionnement critique** et de proposer des **seuils d’alerte**.
 
----
+Cette section met en évidence les zones de fonctionnement où la machine est susceptible de tomber en panne :  
+plages de couples, températures, vitesses de rotation ou usures d’outil considérées comme critiques.
+
+![Interprétation et zones de risque](images/exploration_3.png)
+
 
 ## 🚨 8. Exemple d’avertissement généré
 
